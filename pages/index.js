@@ -55,7 +55,7 @@ export default function Home({ exploreData, cardsData }) {
         buttonText="Be Great"
         />
     </main>
-      <Footer />
+    <Footer />
     </div>
   );
 }
