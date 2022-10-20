@@ -51,7 +51,7 @@ function Search({ searchResults }) {
 
                 <section className="hidden md:inline-flex md:min-w-[450px]">
 
-                    <Map />
+                    <Map searchResults= {searchResults} />
 
                 </section>
 
@@ -62,7 +62,6 @@ function Search({ searchResults }) {
 }
 
 export default Search;
-
 
 export async function getServerSideProps() {
     const searchResults = await fetch("https://www.jsonkeeper.com/b/5NPS").then(res => res.json());

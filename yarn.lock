@@ -357,6 +357,11 @@
   "resolved" "https://registry.npmjs.org/geojson-vt/-/geojson-vt-3.2.1.tgz"
   "version" "3.2.1"
 
+"geolib@^3.3.3":
+  "integrity" "sha512-YO704pzdB/8QQekQuDmFD5uv5RAwAf4rOUPdcMhdEOz+HoPWD0sC7Qqdwb+LAvwIjXVRawx0QgZlocKYh8PFOQ=="
+  "resolved" "https://registry.npmjs.org/geolib/-/geolib-3.3.3.tgz"
+  "version" "3.3.3"
+
 "get-stream@^6.0.1":
   "integrity" "sha512-ts6Wi+2j3jQjqi70w5AlN8DFnkSwC+MqmxEzdEALB2qXZYV3X/b1CTfgPLGJNMeAWxdPfU8FO1ms3NUfaHCPYg=="
   "resolved" "https://registry.npmjs.org/get-stream/-/get-stream-6.0.1.tgz"
