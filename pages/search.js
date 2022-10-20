@@ -6,6 +6,7 @@ import { format } from "date-fns";
 import InfoCard from "../components/InfoCard";
 import Map from "../components/Map";
 
+
 function Search({ searchResults }) {
     const router = useRouter();
     console.log(searchResults);
@@ -49,7 +50,7 @@ function Search({ searchResults }) {
                 </div>
                 </section>
 
-                <section className="hidden md:inline-flex md:min-w-[450px]">
+                <section className="hidden text-xs mb-2 lg:inline-flex lg:min-w-[300px]">
 
                     <Map searchResults= {searchResults} />
 
